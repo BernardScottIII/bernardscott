@@ -1,0 +1,96 @@
+html {
+    scroll-behavior: smooth;
+}
+#navbar {
+    background-color: gray;
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 100;
+}
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+#navbar a:hover {
+    background-color: lightgray;
+    color: black;
+}
+header {
+    background-color: blue;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#mainText {
+    position: relative;
+    text-align: center;
+    top: 50%;
+}
+    #mainLinks {
+        display: block;
+        position: relative;
+        text-align: center;
+        top: 50%;
+    }
+    #mainLinks :hover {
+        color: yellow;
+    }
+        #mainLinks a {
+            color: red;
+            text-decoration: none;
+        }
+    #mainFooter {
+        color: lime;
+        position: absolute;
+        text-align: center;
+        bottom: 10%;
+        width: 100%;
+    }
+        #mainFooter img {
+            width: 10%;
+        }
+#portfolio {
+    height: 100vh;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    #portfolio h2 {
+        margin: 50px 0 0 0;
+    }
+    #portfolioItems {
+        background-color: blueviolet;
+        position: relative;
+        display:inline-block;
+        width: 100%;
+    }
+        .portfolioItem {
+            background-color: aqua;
+            position: relative;
+            display: inline-block;
+            height: 300px;
+            width: 250px;
+            margin: 5% 5% 5% 10%;
+        }
+    #viewFullPortfolio  a{
+        color: red;
+        text-decoration: none;
+    }
+        #viewFullPortfolio :hover {
+            color: orange;
+            text-decoration: none;
+            cursor: pointer;
+        }
+#contactMe {
+    background-color:limegreen;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
